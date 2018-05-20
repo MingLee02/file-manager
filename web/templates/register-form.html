@@ -1,0 +1,21 @@
+<div class="alert alert-success" ng-if="registered === true">
+    <p translate>Your account has been created.</p>
+</div>
+
+<div class="form-group">
+    <input type="email"  placeholder="Email" ng-model="data.email" class="form-control">
+</div>
+
+<div class="form-group">
+    <input type="password"  placeholder="password" ng-model="data.password" class="form-control">
+</div>
+
+<div class="form-group">
+    <input type="password"  placeholder="Repeat password" ng-model="data.password2" class="form-control">
+</div>
+
+<div class="form-group">
+    <input type="text" placeholder="Username" ng-model="data.username" class="form-control">
+</div>
+
+<button type="submit" class="btn btn-default" translate>Register</button>

@@ -1,0 +1,12 @@
+__pycache__/
+api/migrations/__pycache__/
+*.py[cod]
+build/
+dist/
+db.sqlite3
+node_modules
+bower_components
+dist
+coverage
+lib
+package-lock.json
